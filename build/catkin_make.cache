@@ -1,0 +1,2 @@
+actionlib:dynamixel_motor/dynamixel_controllers:dynamixel_motor/dynamixel_driver:dynamixel_motor/dynamixel_motor:dynamixel_motor/dynamixel_msgs:dynamixel_motor/dynamixel_tutorials:joint_state_publisher/joint_state_publisher:my_dynamixel_tutorial:scara_cpe_apps:scara_cpe_description:scara_cpe_gazebo:scara_cpe_ik_moveit_plugin:scara_cpe_kinematics:scara_cpe_moveit:scara_cpe_robot:serial:urdf_tutorial
+-DCATKIN_DEVEL_PREFIX=/home/aubailly/Bureau/WS_MOVE/devel -DCMAKE_INSTALL_PREFIX=/home/aubailly/Bureau/WS_MOVE/install -G Unix Makefiles

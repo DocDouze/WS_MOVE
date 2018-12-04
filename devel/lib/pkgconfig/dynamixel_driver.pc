@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Bureau/WS_MOVE/devel
+
+Name: dynamixel_driver
+Description: Description of dynamixel_driver
+Version: 0.4.1
+Cflags: 
+Libs: -L/home/aubailly/Bureau/WS_MOVE/devel/lib 
+Requires: rospy diagnostic_msgs

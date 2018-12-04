@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Bureau/WS_MOVE/devel
+
+Name: dynamixel_msgs
+Description: Description of dynamixel_msgs
+Version: 0.4.1
+Cflags: -I/home/aubailly/Bureau/WS_MOVE/devel/include
+Libs: -L/home/aubailly/Bureau/WS_MOVE/devel/lib 
+Requires: message_runtime std_msgs

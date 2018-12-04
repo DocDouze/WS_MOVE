@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e3c722d-c27c-4857-b6ef-679b69e9f3e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/actionlib/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/action/Test.action" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/action/Test.action" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/action/TestRequest.action" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/action/TestRequest.action" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/action/TwoInts.action" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/action/TwoInts.action" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/docs/action_interface.svg" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/docs/action_interface.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/docs/cancel_policy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/docs/cancel_policy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/docs/server_states_detailed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/docs/server_states_detailed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/docs/simple_goal_reception.svg" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/docs/simple_goal_reception.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/action_definition.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/action_definition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/action_client.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/action_client.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/client_goal_handle_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/client_goal_handle_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/client_helpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/client_helpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/comm_state.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/comm_state.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/comm_state_machine_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/comm_state_machine_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/connection_monitor.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/connection_monitor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/goal_manager_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/goal_manager_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/service_client.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/service_client.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/service_client_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/service_client_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/simple_action_client.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/simple_action_client.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/simple_client_goal_state.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/simple_client_goal_state.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/simple_goal_state.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/simple_goal_state.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client/terminal_state.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client/terminal_state.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/client_goal_status.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/client_goal_status.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/decl.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/decl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/destruction_guard.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/destruction_guard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/enclosure_deleter.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/enclosure_deleter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/goal_id_generator.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/goal_id_generator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/managed_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/managed_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/one_shot_timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/one_shot_timer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/action_server.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/action_server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/action_server_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/action_server_base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/action_server_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/action_server_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/handle_tracker_deleter.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/handle_tracker_deleter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/handle_tracker_deleter_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/handle_tracker_deleter_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/server_goal_handle.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/server_goal_handle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/server_goal_handle_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/server_goal_handle_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/service_server.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/service_server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/service_server_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/service_server_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/simple_action_server.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/simple_action_server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/simple_action_server_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/simple_action_server_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/status_tracker.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/status_tracker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/include/actionlib/server/status_tracker_imp.h" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/include/actionlib/server/status_tracker_imp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/mainpage.dox" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/mainpage.dox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/action_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/action_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/goal_id_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/goal_id_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/handle_tracker_deleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/handle_tracker_deleter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/server_goal_handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/server_goal_handle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/simple_action_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/simple_action_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/simple_action_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/simple_action_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/actionlib/status_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/actionlib/status_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/connection_monitor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/connection_monitor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/src/goal_id_generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/src/goal_id_generator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/action_client_destruction_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/action_client_destruction_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/add_two_ints_client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/add_two_ints_client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/add_two_ints_server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/add_two_ints_server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/destruction_guard_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/destruction_guard_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/exercise_simple_client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/exercise_simple_client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/ref_server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/ref_server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/ref_server_test.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/ref_server_test.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/server_goal_handle_destruction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/server_goal_handle_destruction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/simple_client_allocator_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/simple_client_allocator_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/simple_client_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/simple_client_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/simple_client_wait_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/simple_client_wait_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/simple_execute_ref_server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/simple_execute_ref_server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/simple_execute_ref_server_test.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/simple_execute_ref_server_test.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_cpp_action_client_destruction.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_cpp_action_client_destruction.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_cpp_simple_client_allocator.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_cpp_simple_client_allocator.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_cpp_simple_client_cancel_crash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_cpp_simple_client_cancel_crash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_cpp_simple_client_cancel_crash.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_cpp_simple_client_cancel_crash.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_exercise_simple_clients.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_exercise_simple_clients.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_imports.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_imports.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_python_server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_python_server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_python_server2.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_python_server2.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_python_server3.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_python_server3.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_python_server_components.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_python_server_components.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_python_simple_client.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_python_simple_client.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_python_simple_server.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_python_simple_server.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_server_goal_handle_destruction.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_server_goal_handle_destruction.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/test/test_simple_action_server_deadlock_python.launch" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/test/test_simple_action_server_deadlock_python.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/tools/dynamic_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/tools/dynamic_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionlib/tools/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/actionlib/tools/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/.travis.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/.travis.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/launch/controller_manager.launch" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/launch/controller_manager.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/mainpage.dox" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/mainpage.dox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_position_controller_dual_motor.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_position_controller_dual_motor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_torque_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_torque_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_torque_controller_dual_motor.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/src/dynamixel_controllers/joint_torque_controller_dual_motor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/StartController.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/StartController.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/StopController.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/StopController.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/mainpage.dox" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/mainpage.dox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/scripts/README" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/scripts/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/src/dynamixel_driver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_driver/src/dynamixel_driver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_motor/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_motor/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_motor/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_motor/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_motor/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_motor/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/mainpage.dox" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/mainpage.dox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/msg/JointState.msg" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/msg/JointState.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_msgs/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/config/dynamixel_joint_controllers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/config/dynamixel_joint_controllers.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/launch/controller_manager.launch" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/launch/controller_manager.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/launch/controller_spawner.launch" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/launch/controller_spawner.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/mainpage.dox" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/mainpage.dox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamixel_motor/dynamixel_tutorials/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/64_joint_robot.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/64_joint_robot.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/mimic_chain.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/mimic_chain.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/mimic_cycle.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/mimic_cycle.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/multi_joint_robot.dae" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/multi_joint_robot.dae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/multi_joint_robot.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/multi_joint_robot.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_64_joint_robot.launch" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_64_joint_robot.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_mimic_chain.launch" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_mimic_chain.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_mimic_cycle.launch" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_mimic_cycle.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_multi_joints_collada.launch" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_multi_joints_collada.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_multi_joints_urdf.launch" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_multi_joints_urdf.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_zero_joints.launch" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/test_zero_joints.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/zero_joint_robot.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/joint_state_publisher/joint_state_publisher/test/zero_joint_robot.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/images/flexible.png" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/images/flexible.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/images/materials.png" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/images/materials.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/images/multipleshapes.png" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/images/multipleshapes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/images/myfirst.png" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/images/myfirst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/images/origins.png" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/images/origins.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/images/visual.png" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/images/visual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/launch/display.launch" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/launch/display.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger.dae" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger.dae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger_color.tif" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger_color.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger_tip.dae" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger_tip.dae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger_tip_color.tif" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/meshes/l_finger_tip_color.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/rviz/urdf.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/rviz/urdf.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/rviz/urdf.vcg" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/rviz/urdf.vcg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/01-myfirst.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/01-myfirst.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/02-multipleshapes.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/02-multipleshapes.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/03-origins.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/03-origins.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/04-materials.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/04-materials.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/05-visual.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/05-visual.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/06-flexible.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/06-flexible.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/07-physics.urdf" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/07-physics.urdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urdf_tutorial/urdf/08-macroed.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/urdf_tutorial/urdf/08-macroed.urdf.xacro" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-897985266">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="2" />
+          <entry key="launch" value="12" />
+          <entry key="py" value="32" />
+          <entry key="srdf" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="4" />
+          <entry key="yaml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="32" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="17" />
+          <entry key="roslaunch" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="launch" value="23" />
+          <entry key="py" value="786" />
+          <entry key="txt" value="1" />
+          <entry key="yaml" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C++" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="786" />
+          <entry key="YAML" value="36" />
+          <entry key="roslaunch" value="23" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/actionlib" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scara_cpe_moveit/config/sensors.yaml" />
+        <option value="$PROJECT_DIR$/scara_cpe_robot/src/emagnet_student.cpp" />
+        <option value="$PROJECT_DIR$/scara_cpe_moveit/launch/moveit_planning_robot.launch" />
+        <option value="$PROJECT_DIR$/scara_cpe_moveit/config/controllers.yaml" />
+        <option value="$PROJECT_DIR$/scara_cpe_robot/launch/scara_meta_controller.launch" />
+        <option value="$PROJECT_DIR$/scara_cpe_robot/config/dynamixel_trajectory_controller.yaml" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_fails.py" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/script/moveCoin.py" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/script/moveCoinsPlanningScene.py" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_named_target.py" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_path.py" />
+        <option value="$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_poses.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scara_cpe_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scara_cpe_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scara_cpe_robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scara_cpe_robot" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="src" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="src" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="scara_cpe_apps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="src" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="scara_cpe_apps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="script" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ROS/ROS_exo/src" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/scara_cpe_gazebo/config/gazebo_motor_controller.yaml" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e3c722d-c27c-4857-b6ef-679b69e9f3e3" name="Default Changelist" comment="" />
+      <created>1542740210065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542740210065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3781421" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scara_cpe_description/launch/scara_cpe_gui.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_gazebo/launch/gazebo_scara_playground.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/launch/scara_cpe_moveit_sensor_manager.launch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/launch/sensor_manager.launch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/config/sensors.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/launch/scara_cpe_moveit_controller_manager.launch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/launch/moveit_planning_gazebo.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/launch/controller_manager.launch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/config/scara_cpe.srdf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/script/state_publisher_student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_gazebo/config/gazebo_motor_controller.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/launch/scara_meta_controller.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/launch/scara_cpe_bringup.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/src/emagnet_student.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/config/controllers.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/config/dynamixel_joints_controller.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_robot/config/dynamixel_trajectory_controller.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_moveit/launch/moveit_planning_robot.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ROS/Projet_Polagraphe/ROS_Project/src/polagraphe/script/distance_tr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ROS/Projet_Polagraphe/ROS_Project/src/polagraphe/script/motor_cmd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ROS/Projet_Polagraphe/ROS_Project/src/polagraphe/script/cpe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ROS/ROS_exo/src/turtle_sim_rand/script/CmdPublisher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/script/moveCoinsPlanningScene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/script/moveCoin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_poses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_fails.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scara_cpe_apps/script/moveit_test_named_target.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

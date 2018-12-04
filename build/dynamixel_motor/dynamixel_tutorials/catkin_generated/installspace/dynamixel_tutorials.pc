@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Bureau/WS_MOVE/install
+
+Name: dynamixel_tutorials
+Description: Description of dynamixel_tutorials
+Version: 0.4.1
+Cflags: 
+Libs: -L/home/aubailly/Bureau/WS_MOVE/install/lib 
+Requires: dynamixel_controllers

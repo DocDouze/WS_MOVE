@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: scara_cpe_description
+    relative_path: urdf/scara_cpe.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/scara_cpe.srdf
+  CONFIG:
+    author_name: Aubailly
+    author_email: quentin.aubailly@gmail.com
+    generated_timestamp: 1542793330

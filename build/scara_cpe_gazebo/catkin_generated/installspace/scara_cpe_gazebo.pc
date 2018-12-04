@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Bureau/WS_MOVE/install
+
+Name: scara_cpe_gazebo
+Description: Description of scara_cpe_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aubailly/Bureau/WS_MOVE/install/lib 
+Requires: 

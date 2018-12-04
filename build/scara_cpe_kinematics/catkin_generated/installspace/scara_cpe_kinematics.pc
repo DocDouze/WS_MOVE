@@ -1,0 +1,8 @@
+prefix=/home/aubailly/Bureau/WS_MOVE/install
+
+Name: scara_cpe_kinematics
+Description: Description of scara_cpe_kinematics
+Version: 0.0.0
+Cflags: -I/home/aubailly/Bureau/WS_MOVE/install/include
+Libs: -L/home/aubailly/Bureau/WS_MOVE/install/lib 
+Requires: message_runtime
